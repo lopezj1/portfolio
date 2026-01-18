@@ -1,0 +1,16 @@
+{
+  "name": "joshua-lopez-portfolio",
+  "version": "1.0.0",
+  "description": "Joshua Lopez - Data Engineer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server"
+  },
+  "keywords": [
+    "portfolio",
+    "data-engineering",
+    "cloudflare-pages"
+  ],
+  "author": "Joshua Lopez",
+  "license": "MIT"
+}
