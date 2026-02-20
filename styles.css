@@ -211,7 +211,9 @@ body {
 }
 
 .link-item {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     padding: 8px 16px;
     background-color: var(--primary-lighter);
     color: var(--primary-color);
@@ -221,6 +223,7 @@ body {
     font-size: 0.9rem;
     transition: var(--transition);
     border: 2px solid var(--primary-light);
+    cursor: pointer;
 }
 
 .link-item:hover {
@@ -249,21 +252,10 @@ body {
     white-space: nowrap;
 }
 
-.tag:hover {
-    border-color: var(--primary-light);
-    color: var(--primary-color);
-    background-color: var(--primary-lighter);
-}
-
 .tag.concept {
     background-color: #f0f7e0;
     border-color: var(--primary-light);
     color: var(--primary-color);
-}
-
-.tag.concept:hover {
-    background-color: var(--primary-light);
-    color: white;
 }
 
 /* Responsive Design */
