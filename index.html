@@ -12,24 +12,89 @@
         <!-- Hero Section -->
         <header class="hero">
             <div class="hero-content">
-                <img src="https://via.placeholder.com/200/200?text=Joshua+Lopez" alt="Joshua Lopez" class="profile-image">
+                <img id="profile-img" src="assets/img/profile.jpg" alt="Joshua Lopez" class="profile-image">
                 <div class="hero-text">
                     <h1>JOSHUA LOPEZ</h1>
                     <p class="tagline">Welcome to my portfolio site, where you can explore my data-related projects.</p>
                     <div class="social-icons">
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link linkedin" title="LinkedIn">
+                        <a href="#" data-link="linkedin" target="_blank" rel="noopener noreferrer" class="social-link linkedin" title="LinkedIn">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link github" title="GitHub">
+                        <a href="#" data-link="github" target="_blank" rel="noopener noreferrer" class="social-link github" title="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="mailto:your-email@example.com" class="social-link email" title="Email">
+                        <a href="#" data-link="email" class="social-link email" title="Email">
                             <i class="fas fa-envelope"></i>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="chart-bg"></div>
+            <!-- Neural network: represents the intersection of analytics, data engineering, and AI -->
+            <svg class="chart-bg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Connections: L0 → L1 -->
+                <g stroke="#2d5016" stroke-width="1" fill="none">
+                    <line x1="30" y1="70"  x2="130" y2="45"  stroke-opacity="0.4"/>
+                    <line x1="30" y1="70"  x2="130" y2="115" stroke-opacity="0.4"/>
+                    <line x1="30" y1="70"  x2="130" y2="185" stroke-opacity="0.4"/>
+                    <line x1="30" y1="70"  x2="130" y2="255" stroke-opacity="0.4"/>
+                    <line x1="30" y1="150" x2="130" y2="45"  stroke-opacity="0.4"/>
+                    <line x1="30" y1="150" x2="130" y2="115" stroke-opacity="0.4"/>
+                    <line x1="30" y1="150" x2="130" y2="185" stroke-opacity="0.4"/>
+                    <line x1="30" y1="150" x2="130" y2="255" stroke-opacity="0.4"/>
+                    <line x1="30" y1="230" x2="130" y2="45"  stroke-opacity="0.4"/>
+                    <line x1="30" y1="230" x2="130" y2="115" stroke-opacity="0.4"/>
+                    <line x1="30" y1="230" x2="130" y2="185" stroke-opacity="0.4"/>
+                    <line x1="30" y1="230" x2="130" y2="255" stroke-opacity="0.4"/>
+                    <!-- Connections: L1 → L2 -->
+                    <line x1="130" y1="45"  x2="230" y2="45"  stroke-opacity="0.3"/>
+                    <line x1="130" y1="45"  x2="230" y2="115" stroke-opacity="0.3"/>
+                    <line x1="130" y1="45"  x2="230" y2="185" stroke-opacity="0.3"/>
+                    <line x1="130" y1="45"  x2="230" y2="255" stroke-opacity="0.3"/>
+                    <line x1="130" y1="115" x2="230" y2="45"  stroke-opacity="0.3"/>
+                    <line x1="130" y1="115" x2="230" y2="115" stroke-opacity="0.3"/>
+                    <line x1="130" y1="115" x2="230" y2="185" stroke-opacity="0.3"/>
+                    <line x1="130" y1="115" x2="230" y2="255" stroke-opacity="0.3"/>
+                    <line x1="130" y1="185" x2="230" y2="45"  stroke-opacity="0.3"/>
+                    <line x1="130" y1="185" x2="230" y2="115" stroke-opacity="0.3"/>
+                    <line x1="130" y1="185" x2="230" y2="185" stroke-opacity="0.3"/>
+                    <line x1="130" y1="185" x2="230" y2="255" stroke-opacity="0.3"/>
+                    <line x1="130" y1="255" x2="230" y2="45"  stroke-opacity="0.3"/>
+                    <line x1="130" y1="255" x2="230" y2="115" stroke-opacity="0.3"/>
+                    <line x1="130" y1="255" x2="230" y2="185" stroke-opacity="0.3"/>
+                    <line x1="130" y1="255" x2="230" y2="255" stroke-opacity="0.3"/>
+                    <!-- Connections: L2 → L3 -->
+                    <line x1="230" y1="45"  x2="330" y2="70"  stroke-opacity="0.4"/>
+                    <line x1="230" y1="45"  x2="330" y2="150" stroke-opacity="0.4"/>
+                    <line x1="230" y1="45"  x2="330" y2="230" stroke-opacity="0.4"/>
+                    <line x1="230" y1="115" x2="330" y2="70"  stroke-opacity="0.4"/>
+                    <line x1="230" y1="115" x2="330" y2="150" stroke-opacity="0.4"/>
+                    <line x1="230" y1="115" x2="330" y2="230" stroke-opacity="0.4"/>
+                    <line x1="230" y1="185" x2="330" y2="70"  stroke-opacity="0.4"/>
+                    <line x1="230" y1="185" x2="330" y2="150" stroke-opacity="0.4"/>
+                    <line x1="230" y1="185" x2="330" y2="230" stroke-opacity="0.4"/>
+                    <line x1="230" y1="255" x2="330" y2="70"  stroke-opacity="0.4"/>
+                    <line x1="230" y1="255" x2="330" y2="150" stroke-opacity="0.4"/>
+                    <line x1="230" y1="255" x2="330" y2="230" stroke-opacity="0.4"/>
+                </g>
+                <!-- Input layer nodes -->
+                <circle cx="30"  cy="70"  r="8" fill="#7cb342"/>
+                <circle cx="30"  cy="150" r="8" fill="#7cb342"/>
+                <circle cx="30"  cy="230" r="8" fill="#7cb342"/>
+                <!-- Hidden layer 1 nodes -->
+                <circle cx="130" cy="45"  r="6" fill="#2d5016"/>
+                <circle cx="130" cy="115" r="6" fill="#2d5016"/>
+                <circle cx="130" cy="185" r="6" fill="#2d5016"/>
+                <circle cx="130" cy="255" r="6" fill="#2d5016"/>
+                <!-- Hidden layer 2 nodes -->
+                <circle cx="230" cy="45"  r="6" fill="#2d5016"/>
+                <circle cx="230" cy="115" r="6" fill="#2d5016"/>
+                <circle cx="230" cy="185" r="6" fill="#2d5016"/>
+                <circle cx="230" cy="255" r="6" fill="#2d5016"/>
+                <!-- Output layer nodes -->
+                <circle cx="330" cy="70"  r="8" fill="#c5d86d"/>
+                <circle cx="330" cy="150" r="8" fill="#c5d86d"/>
+                <circle cx="330" cy="230" r="8" fill="#c5d86d"/>
+            </svg>
         </header>
 
         <!-- Projects Section -->
@@ -38,13 +103,13 @@
             <article class="project-card">
                 <h2 class="project-title">NOAA Fishing Survey Data Project</h2>
                 <p class="project-description">
-                    This project demonstrates an ETL pipeline that processes NOAA's fishing survey data, then makes it available for analysis through an interactive dashboard. <a href="#" class="link-highlight">Check out more!</a>
+                    This project demonstrates an ETL pipeline that processes NOAA's fishing survey data, then makes it available for analysis through an interactive dashboard.
                 </p>
                 <div class="project-section">
                     <h3 class="section-label">Links:</h3>
                     <div class="links-group">
-                        <a href="#" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> Web App</a>
-                        <a href="#" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
+                        <a href="#" data-link="noaaFishing.webApp" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> Web App</a>
+                        <a href="#" data-link="noaaFishing.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
                     </div>
                 </div>
                 <div class="project-section">
@@ -79,13 +144,13 @@
             <article class="project-card">
                 <h2 class="project-title">YouTube Fishing Videos Data Analysis</h2>
                 <p class="project-description">
-                    This project ingests YouTube video data related to fishing, stores it in MongoDB, and provides visualizations through Metabase for analysis—<a href="#" class="link-highlight">check out the links below for more details!</a>
+                    This project ingests YouTube video data related to fishing, stores it in MongoDB, and provides visualizations through Metabase for analysis.
                 </p>
                 <div class="project-section">
                     <h3 class="section-label">Links:</h3>
                     <div class="links-group">
-                        <a href="#" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> Dashboard</a>
-                        <a href="#" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
+                        <a href="#" data-link="youtubeFishing.dashboard" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> Dashboard</a>
+                        <a href="#" data-link="youtubeFishing.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
                     </div>
                 </div>
                 <div class="project-section">
@@ -121,13 +186,13 @@
             <article class="project-card">
                 <h2 class="project-title">NJ Beach Cam Object Detection Notifier</h2>
                 <p class="project-description">
-                    This project performs object detection using YOLOv8 model on a live stream of a NJ beach. Notifications via Twilio are sent when there are increased levels of fishing activity. <a href="#" class="link-highlight">Check out the links below!</a>
+                    This project performs object detection using YOLOv8 model on a live stream of a NJ beach. Notifications via Twilio are sent when there are increased levels of fishing activity.
                 </p>
                 <div class="project-section">
                     <h3 class="section-label">Links:</h3>
                     <div class="links-group">
-                        <a href="#" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> Web App (coming soon)</a>
-                        <a href="#" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
+                        <a href="#" data-link="njBeachCam.webApp" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> Web App</a>
+                        <a href="#" data-link="njBeachCam.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
                     </div>
                 </div>
                 <div class="project-section">
@@ -159,6 +224,7 @@
         </main>
     </div>
 
+    <script src="config.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -124,20 +124,15 @@ body {
     background-color: #ea4335;
 }
 
-/* Chart Background */
+/* Neural Network Background */
 .chart-bg {
     position: absolute;
     right: 0;
     bottom: 0;
     width: 400px;
     height: 300px;
-    opacity: 0.15;
+    opacity: 0.2;
     z-index: 1;
-    background: linear-gradient(135deg, transparent 40%, var(--primary-light) 40%, var(--primary-light) 45%, transparent 45%),
-                linear-gradient(135deg, transparent 35%, var(--primary-light) 35%, var(--primary-light) 40%, transparent 40%),
-                linear-gradient(135deg, transparent 30%, var(--primary-light) 30%, var(--primary-light) 35%, transparent 35%);
-    background-size: 50px 100%, 70px 100%, 90px 100%;
-    background-position: 0 0, 0 0, 0 0;
 }
 
 /* Projects Section */
@@ -233,6 +228,12 @@ body {
     box-shadow: var(--shadow-sm);
 }
 
+.link-item.coming-soon {
+    opacity: 0.45;
+    cursor: default;
+    pointer-events: none;
+}
+
 .tags-group {
     display: flex;
     flex-wrap: wrap;
@@ -287,7 +288,7 @@ body {
     .chart-bg {
         width: 250px;
         height: 200px;
-        opacity: 0.08;
+        opacity: 0.12;
     }
 
     .links-group,
