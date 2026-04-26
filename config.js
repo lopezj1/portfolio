@@ -26,8 +26,23 @@ const SITE_CONFIG = {
             githubRepo: 'https://github.com/lopezj1/youtube_fishing',
         },
         njBeachCam: {
-            webApp:     '#',
             githubRepo: 'https://github.com/lopezj1/beach_cam',
+        },
+        mortgageCalculator: {
+            webApp:     'https://mortgage.joshuailopez.com/',
+            githubRepo: 'https://github.com/lopezj1/mortgage_calculator_spa',
+        },
+        fishingLog: {
+            githubRepo: 'https://github.com/lopezj1/fishing-log',
+        },
+        cncCalculator: {
+            githubRepo: 'https://github.com/lopezj1/cnc-feeds-speeds-calculator',
+        },
+        dominoSim: {
+            githubRepo: 'https://github.com/lopezj1/domino_sim',
+        },
+        ragEquipmentManuals: {
+            githubRepo: 'https://github.com/lopezj1/rag-equipment-manuals',
         },
     },
 };

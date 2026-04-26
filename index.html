@@ -138,6 +138,12 @@
                         <span class="tag concept">Data Analysis</span>
                     </div>
                 </div>
+                <div class="project-section">
+                    <h3 class="section-label">Status:</h3>
+                    <div class="tags-group">
+                        <span class="tag">Complete</span>
+                    </div>
+                </div>
             </article>
 
             <!-- Project 2 -->
@@ -180,18 +186,23 @@
                         <span class="tag concept">Containerization</span>
                     </div>
                 </div>
+                <div class="project-section">
+                    <h3 class="section-label">Status:</h3>
+                    <div class="tags-group">
+                        <span class="tag">Complete</span>
+                    </div>
+                </div>
             </article>
 
             <!-- Project 3 -->
             <article class="project-card">
-                <h2 class="project-title">NJ Beach Cam Object Detection Notifier</h2>
+                <h2 class="project-title">NJ Beach Cam Object Detection Monitor</h2>
                 <p class="project-description">
-                    This project performs object detection using YOLOv8 model on a live stream of a NJ beach. Notifications via Twilio are sent when there are increased levels of fishing activity.
+                    Serverless monitoring system that runs YOLOv8 object detection on a live NJ beach stream every 30 minutes via GitHub Actions. Uploads annotated detection clips to Cloudflare R2 and sends Gmail email alerts when car or person thresholds are exceeded.
                 </p>
                 <div class="project-section">
                     <h3 class="section-label">Links:</h3>
                     <div class="links-group">
-                        <a href="#" data-link="njBeachCam.webApp" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> Web App</a>
                         <a href="#" data-link="njBeachCam.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
                     </div>
                 </div>
@@ -201,23 +212,249 @@
                         <span class="tag">Python</span>
                         <span class="tag">OpenCV</span>
                         <span class="tag">YOLOv8</span>
-                        <span class="tag">Twilio API</span>
+                        <span class="tag">yt-dlp</span>
+                        <span class="tag">boto3</span>
+                        <span class="tag">GitHub Actions</span>
                         <span class="tag">Docker</span>
-                        <span class="tag">Git</span>
-                        <span class="tag">Bash</span>
+                        <span class="tag">Cloudflare R2</span>
+                        <span class="tag">Gmail SMTP</span>
                     </div>
                 </div>
                 <div class="project-section">
                     <h3 class="section-label">Concepts:</h3>
                     <div class="tags-group">
-                        <span class="tag concept">Data Processing</span>
-                        <span class="tag concept">Computer Vision</span>
                         <span class="tag concept">Object Detection</span>
+                        <span class="tag concept">Computer Vision</span>
                         <span class="tag concept">Deep Learning</span>
-                        <span class="tag concept">Convolutional Neural Networks (CNN)</span>
-                        <span class="tag concept">Web Application</span>
-                        <span class="tag concept">Version Control</span>
+                        <span class="tag concept">Serverless Automation</span>
+                        <span class="tag concept">CI/CD Scheduling</span>
+                        <span class="tag concept">Cloud Storage</span>
+                        <span class="tag concept">Email Alerting</span>
                         <span class="tag concept">Containerization</span>
+                        <span class="tag concept">Video Processing</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Status:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">Active</span>
+                    </div>
+                </div>
+            </article>
+            <!-- Project 4 -->
+            <article class="project-card">
+                <h2 class="project-title">Mortgage Calculator</h2>
+                <p class="project-description">
+                    Interactive single-page application for mortgage and financial planning. Compare monthly payments and total cost across 15, 20, and 30-year loan terms with per-term interest rates, visualize amortization schedules, and explore how loan size and property taxes impact debt-to-income ratios.
+                </p>
+                <div class="project-section">
+                    <h3 class="section-label">Links:</h3>
+                    <div class="links-group">
+                        <a href="#" data-link="mortgageCalculator.webApp" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> Web App</a>
+                        <a href="#" data-link="mortgageCalculator.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Tools:</h3>
+                    <div class="tags-group">
+                        <span class="tag">React 19</span>
+                        <span class="tag">Vite</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">Material-UI</span>
+                        <span class="tag">Recharts</span>
+                        <span class="tag">Radix UI</span>
+                        <span class="tag">Emotion</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Concepts:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">Financial Modeling</span>
+                        <span class="tag concept">Multi-Term Comparison</span>
+                        <span class="tag concept">Mortgage Amortization</span>
+                        <span class="tag concept">Debt-to-Income Analysis</span>
+                        <span class="tag concept">Interactive Data Visualization</span>
+                        <span class="tag concept">Single Page Application</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Status:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">Live</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 5 -->
+            <article class="project-card">
+                <h2 class="project-title">Fishing Log Analytics Pipeline</h2>
+                <p class="project-description">
+                    Personal saltwater fishing analytics pipeline that ingests Garmin GPS activity files, automatically enriches trips with weather, tide, water temperature, and solar data from public APIs, and analyzes catch patterns across environmental variables.
+                </p>
+                <div class="project-section">
+                    <h3 class="section-label">Links:</h3>
+                    <div class="links-group">
+                        <a href="#" data-link="fishingLog.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Tools:</h3>
+                    <div class="tags-group">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">Garmin FIT SDK</span>
+                        <span class="tag">Open-Meteo API</span>
+                        <span class="tag">NOAA CO-OPS API</span>
+                        <span class="tag">ephem</span>
+                        <span class="tag">uv</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Concepts:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">Data Ingestion</span>
+                        <span class="tag concept">Multi-Source Data Enrichment</span>
+                        <span class="tag concept">GPS Data Processing</span>
+                        <span class="tag concept">API Integration</span>
+                        <span class="tag concept">Temporal Pattern Analysis</span>
+                        <span class="tag concept">CLI Architecture</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Status:</h3>
+                    <div class="tags-group">
+                        <span class="tag">In Progress</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 6 -->
+            <article class="project-card">
+                <h2 class="project-title">CNC Feeds &amp; Speeds Calculator</h2>
+                <p class="project-description">
+                    Interactive browser-based calculator for Shapeoko CNC routers providing instant feed rate, plunge rate, depth of cut, and chipload recommendations based on tool type, material, and spindle speed. Zero dependencies — runs directly in any browser.
+                </p>
+                <div class="project-section">
+                    <h3 class="section-label">Links:</h3>
+                    <div class="links-group">
+                        <a href="#" data-link="cncCalculator.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Tools:</h3>
+                    <div class="tags-group">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">Vanilla JavaScript</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Nginx</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Concepts:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">Real-Time Calculations</span>
+                        <span class="tag concept">CNC Machining</span>
+                        <span class="tag concept">Chipload Formulas</span>
+                        <span class="tag concept">Single Page Application</span>
+                        <span class="tag concept">Zero-Dependency Architecture</span>
+                        <span class="tag concept">Containerization</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Status:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">Live</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 7 -->
+            <article class="project-card">
+                <h2 class="project-title">Domino Simulation &amp; Strategy Analyzer</h2>
+                <p class="project-description">
+                    Full-stack discrete event simulation of domino games with pluggable player strategies and Monte Carlo batch orchestration. A completed React + FastAPI application lets you run single games or batch simulations, compare strategy win rates with confidence intervals, and visualize Monte Carlo convergence — containerized with Docker.
+                </p>
+                <div class="project-section">
+                    <h3 class="section-label">Links:</h3>
+                    <div class="links-group">
+                        <a href="#" data-link="dominoSim.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Tools:</h3>
+                    <div class="tags-group">
+                        <span class="tag">Python</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">Pydantic</span>
+                        <span class="tag">Pytest</span>
+                        <span class="tag">React 18</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Vite</span>
+                        <span class="tag">Recharts</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">uv</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Concepts:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">Discrete Event Simulation</span>
+                        <span class="tag concept">Monte Carlo Analysis</span>
+                        <span class="tag concept">Strategy Pattern</span>
+                        <span class="tag concept">Immutable State Management</span>
+                        <span class="tag concept">Full-Stack Development</span>
+                        <span class="tag concept">API Design</span>
+                        <span class="tag concept">Statistical Analysis</span>
+                        <span class="tag concept">Test-Driven Development</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Status:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">MVP Complete</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 8 -->
+            <article class="project-card">
+                <h2 class="project-title">RAG Equipment Manuals</h2>
+                <p class="project-description">
+                    Retrieval-augmented generation system for industrial equipment documentation. Upload PDF manuals through a Streamlit interface and ask natural language questions powered by OpenAI embeddings and GPT-4o-mini via a RAGAnything framework.
+                </p>
+                <div class="project-section">
+                    <h3 class="section-label">Links:</h3>
+                    <div class="links-group">
+                        <a href="#" data-link="ragEquipmentManuals.githubRepo" class="link-item"><i class="fas fa-arrow-up-right-from-square"></i> GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Tools:</h3>
+                    <div class="tags-group">
+                        <span class="tag">Python</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">OpenAI API</span>
+                        <span class="tag">RAGAnything</span>
+                        <span class="tag">Docling</span>
+                        <span class="tag">PyTorch</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Concepts:</h3>
+                    <div class="tags-group">
+                        <span class="tag concept">Retrieval-Augmented Generation (RAG)</span>
+                        <span class="tag concept">Vector Embeddings</span>
+                        <span class="tag concept">Document Parsing</span>
+                        <span class="tag concept">Semantic Search</span>
+                        <span class="tag concept">LLM Integration</span>
+                        <span class="tag concept">PDF Processing</span>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <h3 class="section-label">Status:</h3>
+                    <div class="tags-group">
+                        <span class="tag">In Progress</span>
                     </div>
                 </div>
             </article>
