@@ -18,11 +18,9 @@ const SITE_CONFIG = {
     // Project links
     projects: {
         noaaFishing: {
-            webApp:     '#',
             githubRepo: 'https://github.com/lopezj1/noaa_eda',
         },
         youtubeFishing: {
-            dashboard:  '#',
             githubRepo: 'https://github.com/lopezj1/youtube_fishing',
         },
         njBeachCam: {
@@ -32,17 +30,11 @@ const SITE_CONFIG = {
             webApp:     'https://mortgage.joshuailopez.com/',
             githubRepo: 'https://github.com/lopezj1/mortgage_calculator_spa',
         },
-        fishingLog: {
-            githubRepo: 'https://github.com/lopezj1/fishing-log',
-        },
         cncCalculator: {
             githubRepo: 'https://github.com/lopezj1/cnc-feeds-speeds-calculator',
         },
         dominoSim: {
             githubRepo: 'https://github.com/lopezj1/domino_sim',
-        },
-        ragEquipmentManuals: {
-            githubRepo: 'https://github.com/lopezj1/rag-equipment-manuals',
         },
     },
 };
