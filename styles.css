@@ -287,6 +287,7 @@ body {
 
     .hero-bg {
         opacity: 0.3;
+        object-fit: contain;
     }
 
     .links-group,
