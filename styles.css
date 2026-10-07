@@ -10,7 +10,7 @@
     --primary-lighter: #c5d86d;
     --bg-color: #f5f1de;
     --text-dark: #1a1a1a;
-    --text-light: #666;
+    --text-light: #4d4d4d;
     --border-color: #e0e0e0;
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
     --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
@@ -356,4 +356,9 @@ body {
 
 @media (max-width: 700px) {
     .projects { grid-template-columns: 1fr; }
+}
+
+a:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 3px;
 }

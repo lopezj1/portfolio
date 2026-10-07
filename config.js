@@ -6,7 +6,7 @@
 const SITE_CONFIG = {
 
     // Header
-    profileImage: 'assets/img/profile.jpg',
+    profileImage: 'assets/img/profile.webp',
 
     // Social / contact links
     links: {
